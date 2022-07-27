@@ -1,0 +1,255 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color:#f8f6f8;
+}
+
+/* STYLE TEXT */
+.home{
+  font-size: 2em;
+  
+}
+h1 {
+  color:#f8f6f8;
+  font-size: 5em;
+  font-family: 'Noto Sans JP', sans-serif;
+ 
+}
+h2 {
+font-family: 'Noto Sans JP', sans-serif;
+color:#262730;
+}
+h3{
+font-family: 'Noto Sans JP', sans-serif;
+color:#050005;
+font-size: 1.3em;
+padding:3em;
+text-align: center
+}
+h4{
+  font-family: 'Noto Sans JP', sans-serif;
+color:#050005;
+font-size: 1em;
+padding:5em;
+text-align: center
+}
+h5{
+font-family: 'Noto Sans JP', sans-serif;
+color:#eba1d8;
+font-size: 2em;
+padding:1em;
+text-align: center;
+background: #080116
+}
+h6{
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#262730;
+  font-size: 4em;
+  }
+
+p{
+font-family: 'Noto Sans JP', sans-serif;
+color:#262730;
+font-size: 1.3em;
+line-height: 1.5em;
+}
+.underline{
+  text-decoration: underline;
+}
+/* STYLE IMAGES */
+
+#crops{
+   width: 15em;
+  margin: 1em;
+border-radius: 10%;
+  
+}
+#logo{
+  width: 7em;
+}
+.backgrounds{
+  width: 100%;
+}
+.background{
+  text-align: left;
+ 
+
+}
+.home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  text-align: center;
+ border-radius: 10px;
+  border-style: none;
+   
+  padding: 15px;
+}
+
+.mainTitle{
+   border-radius: 10px;
+   border-style: none;
+   color:#f0d7e3;
+   padding: 15px;
+}
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  text-align: center;
+ border-radius: 10px;
+  border-style: none;
+   
+  padding: 15px;
+
+ 
+}
+
+/* STYLE NAV BAR */
+ul{
+list-style-type: none;
+ overflow:hidden;
+  padding:1em;
+}
+
+
+
+li {
+  display:inline;
+}
+
+li a {
+text-decoration:none;
+color:rgb(219, 21, 104);
+padding:3em;
+font-size:1.5em;
+}
+
+.questions{
+padding-bottom: 2.5em;
+padding-top: 2em;
+}
+
+li a:hover {
+background-color:rgb(52, 20, 94);
+color: #f0d7e3;
+
+}
+
+/* STYLE BUTTONS */
+/*.secretMessage{
+  background: #262730;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+padding-bottom: 5px;
+  margin-top: 30px;
+  margin-left:35%; 
+  margin-right: 35%;
+
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #F7F9F9;
+  margin-bottom: 2em;
+}
+
+#personalMessage{
+  background: #F7F9F9;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color:#262730;
+  font-size: 1em;
+  text-align: center;
+  
+  
+}
+
+#myBtn{
+  background: #F7F9F9;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color:#262730;
+  font-size: 1em;
+}*/
+
+/* ADD MORE! */
+ 
+
+.theCreators{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+#section1{
+  display: flex;
+  flex-wrap: nowrap;
+
+  
+}
+
+#facts{
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.icons{
+  width: 10em;
+  
+}
+#sp{
+display: flex;
+  flex-direction: column;
+ width: 30em;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+.rightText{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 1.5em;
+  background-color: #eba1d8;
+  height: 500px;
+}
+.rightText2{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.rightText3{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 3em;
+  background-color: #e6eba1;
+}
+.percentIcon{
+ width: 30em;
+ padding:7em;
+  }
