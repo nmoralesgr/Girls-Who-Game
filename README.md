@@ -1,4 +1,4 @@
-# Breach Bot Code
+# Girls Who Code Website 
 
 This an individual website project I made for Girls Who Code during Summer of 2021. My first ever project using HTML and CSS through repl.it and imported to Github. Made by Nohemi Morales.
 
